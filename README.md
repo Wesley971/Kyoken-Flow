@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎌 KyōkenFlow – Portfolio immersif futuriste
 
-## Getting Started
+Ce projet est un portfolio personnel développé avec **Next.js**, **TypeScript**, **Tailwind CSS**, **GSAP** et **WebGL (Three.js)**.  
+L’objectif est de créer une **expérience interactive et visuelle** inspirée des sites de grandes marques, dans une ambiance **futuriste asiatique**.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+### 📦 Installer les dépendances
+
+```bash
+npm install
+```
+
+### 🧪 Lancer le serveur de développement
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Ensuite, ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧰 Stack technique
 
-## Learn More
+- ⚛️ **Next.js (App Router)** – framework React moderne
+- 🎨 **Tailwind CSS** – pour un design rapide et responsive
+- 🧙‍♂️ **GSAP** – animations fluides et immersives
+- 🌌 **Three.js / @react-three/fiber** – rendu 3D interactif
+- 🖋️ **Framer Motion** – animation de composants React
+- 💅 Typographie : Geist (optimisée via `next/font`)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Structure de projet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+/app              # Pages du site (layout, home, projets, etc.)
+/components       # Composants UI (Header, HeroSection, etc.)
+/styles           # Fichiers CSS globaux
+/public           # Images et ressources statiques
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧠 Objectif créatif
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Créer une expérience immersive de type **site publicitaire haut de gamme**, avec :
+- des animations d’entrée élégantes
+- des effets interactifs au scroll
+- une navigation fluide avec transitions
+- un fond 3D animé réactif à l’utilisateur
+
+---
+
+## 🧪 À venir (roadmap perso)
+
+- [ ] Loader animé avec GSAP
+- [ ] Effets de transition entre pages
+- [ ] Galerie de projets dynamique avec WebGL
+- [ ] Intégration d’effets sonores discrets
+- [ ] Responsive
